@@ -29,7 +29,18 @@ header p {
     font-size: 1.1rem;
     opacity: 0.9;
 }
+/* image */
+#image {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;}
 
+#image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
 /* section layout */
 section {
     background-color: #ffffff;
